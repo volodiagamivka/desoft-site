@@ -1,0 +1,156 @@
+.project-info-section {
+    background-color: #B6D9FA;
+    padding: 103px 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-info-container {
+    max-width: 576px;
+    font-family: 'Lexend Tera', sans-serif;
+    padding-left: calc(20px + 5vw);
+    padding-right: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-info-container h2 {
+    color: #003070;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.project-info-container p {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .project-info-section {
+        padding: 60px 15px;
+        align-items: flex-start;
+    }
+
+    .project-info-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .project-info-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-info-container p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 1920px) {
+    .project-info-section {
+        padding: 150px 40px;
+        .project-info-section {
+            background-color: #B6D9FA;
+            padding: 103px 20px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        
+        .project-info-container {
+            max-width: 576px;
+            font-family: 'Lexend Tera', sans-serif;
+            padding-left: calc(20px + 5vw);
+            padding-right: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        
+        .project-info-container h2 {
+            color: #003070;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .project-info-container p {
+            color: #000;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .project-info-section {
+                padding: 60px 15px;
+                align-items: flex-start;
+            }
+        
+            .project-info-container {
+                max-width: 100%;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        
+            .project-info-container h2 {
+                font-size: 1.5rem;
+            }
+        
+            .project-info-container p {
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+        }
+        
+        @media (min-width: 1920px) {
+            .project-info-section {
+                padding: 150px 40px;
+                justify-content: center;
+                align-items: flex-start;
+            }
+        
+            .project-info-container {
+                max-width: 1000px;
+                padding-left: 80px;
+                padding-right: 40px;
+            }
+        
+            .project-info-container h2 {
+                font-size: 2.5rem;
+            }
+        
+            .project-info-container p {
+                font-size: 1.25rem;
+                line-height: 1.8;
+            }
+        }
+        
+        align-items: flex-start;
+    }
+
+    .project-info-container {
+        max-width: 800px;
+        padding-left: 80px;
+        padding-right: 40px;
+    }
+
+    .project-info-container h2 {
+        font-size: 2.5rem;
+    }
+
+    .project-info-container p {
+        font-size: 1.25rem;
+        line-height: 1.8;
+    }
+}

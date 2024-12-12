@@ -1,0 +1,112 @@
+.technology-section {
+    text-align: center;
+    padding: 85px 20px;
+    background-color: #fff;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.technology-section h2 {
+    color: #003070;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 93px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    width: 543px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.icon-container {
+    flex-shrink: 0;
+}
+
+.icon-container img {
+    width: 96px;
+    height: 96px;
+    margin: 0;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #1a2a6c;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #4a4a4a;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card-content {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .technology-section {
+        padding: 120px 40px;
+    }
+
+    .technology-section h2 {
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+
+    .cards-container {
+        gap: 120px;
+    }
+
+    .card {
+        width: 800px;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .icon-container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .card h3 {
+        font-size: 2rem;
+    }
+
+    .card p {
+        font-size: 1.25rem;
+        line-height: 1.75;
+    }
+}

@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px; 
+    
+    color: #003070; 
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+h1 {
+    font-size: 40; 
+    
+}
