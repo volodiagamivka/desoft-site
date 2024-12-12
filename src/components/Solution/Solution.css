@@ -17,7 +17,17 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+.project-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Розташування зображення справа */
+}
 
+.project-image {
+    max-width: 160%;
+    height: auto;
+    border-radius: 12px; /* Додаємо трохи закруглених кутів */
+}
 .project-info-container h2 {
     color: #003070;
     font-size: 2rem;
