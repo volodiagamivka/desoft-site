@@ -142,7 +142,9 @@ textarea {
     .contact-header h2 {
         font-size: 1.8rem; 
     }
-
+    .form-row {
+        flex-direction: column;
+    }
     .contact-header p {
         font-size: 0.9rem; 
     }
@@ -150,9 +152,6 @@ textarea {
     .white-container {
         max-width: 100%; 
         padding: 20px; 
-    }
-    .form-row {
-        flex-direction: column;
     }
 
     .form-group input,
