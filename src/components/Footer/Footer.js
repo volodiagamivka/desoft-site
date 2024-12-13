@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-left">
           <h4>Контакти:</h4>
           <p>+38 (093) 737 11 39</p>
-          <p>desoft@gmail.com</p>
+          <p>desofthistory@gmail.com</p>
           <p>Львів, Україна</p>
           <div className="social-icons">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <img src="/icons/facebook.svg" alt="Facebook" />
             </a>
-            <a href="mailto:desoft@gmail.com">
+            <a href="mailto:desofthistory@gmail.com">
               <img src="/icons/email.svg" alt="Email" />
             </a>
           </div>
